@@ -1,3 +1,101 @@
-body{
+body {
     background-color: rgba(39, 53, 62, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    background-image: url(../imagens/image-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-left: 92px;
+}
+
+#navbar>#nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    gap: 75px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: rgba(239, 233, 204, 1);
+}
+
+.logo-img img {
+    width: 539px;
+    height: 273px;
+}
+
+#bem-vindo-content {
+    width: 532PX;
+    height: 292px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bem-vindo-content p{
+    text-align: center;
+    color: rgba(239, 233, 204, 1);
+    font-size: 24px;
+}
+
+#bem-vindo-content h1{
+    text-align: center;
+    color:  rgba(239, 233, 204, 1);
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 114px;
+}
+
+.title-home{
+    color: rgba(239, 233, 204, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 103px;
+    font-size: 96px;
+}
+
+.apresentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 88px;
+}
+
+.cardapio-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.text-cardapio{
+    color: rgba(239, 233, 204, 1);
+    font-size: 48px;
+    text-align: center;
 }
