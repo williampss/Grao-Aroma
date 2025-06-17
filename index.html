@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="William Patricio">
-    <meta name="description" content="Página inicial do site, contndo as informações básicas e links para outras seções.">
+    <meta name="description"
+        content="Página inicial do site, contndo as informações básicas e links para outras seções.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="src/assets/css/reset.css">
     <link rel="stylesheet" href="src/assets/css/styles.css">
     <title>Home</title>
 </head>
+
 <body>
     <header>
         <div class="logo-img">
@@ -16,8 +20,9 @@
 
             <div id="bem-vindo-content">
                 <h1>Bem-vindo</h1>
-                <p>Na Grão Aroma, cada xícara conta uma história. Nossos cafés são selecionados com carinho, preparados com dedicação e servidos com um sorriso.</p>
-           </div>
+                <p>Na Grão Aroma, cada xícara conta uma história. Nossos cafés são selecionados com carinho, preparados
+                    com dedicação e servidos com um sorriso.</p>
+            </div>
         </div>
         <nav id="navbar">
             <ul id="nav-list">
@@ -25,13 +30,12 @@
                 <li class="nav_item"><a class="nav_link" href="cardapio.html">Cardapio</a></li>
                 <li class="nav_item"><a class="nav_link" href="contato.html">Contato</a></li>
             </ul>
-        </nav>
-       
+        </nav>  
     </header>
     <main>
         <div class="title-home">
             <p>Nosso</p>
-            <p>Establecimento</p>
+            <p>Estabelecimento</p>
         </div>
         <div class="apresentation">
             <div class="content-slide">
@@ -51,14 +55,36 @@
                 <div class="cardapio-img">
                     <img src="src/assets/imagens/image cardapio.png" alt="image cardapio">
                 </div>
-                <div class="text-cardapio">
-                    <p>Cardapio</p>
-                </div>
-                <div class="space-button-cardapio">
-                    <button>ver mais</button>
-                </div>
+                <a id="anchor-cardapio" href="cardapio.html">Ver mais</a>
             </div>
         </div>
     </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-midia">
+                <h2>Siga-nos</h2>
+                <div class="icons">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+            <div class="agradecimento">
+                <h1>Obrigado!</h1>
+                <p>Esperamos que tenha gostado de conhecer um pouco do nosso mundo.
+                    Será um prazer ainda maior receber você em nossa cafeteria. Venha nos visitar, sentir o aroma do
+                    café fresquinho no ar e aproveitar momentos especiais com a gente.
+                    Grão Aroma, onde o café é feito com alma. Te esperamos em breve!</p>
+
+            </div>
+            <div class="img-footer">
+                <img src="src/assets/imagens/footer-img.png" alt="footer-img">
+            </div>
+        </div>
+        <div class="footer-logo">
+            <img src="src/assets/imagens/logo café footer.png" alt="logo footer">
+        </div>
+    </footer>
 </body>
+
 </html>

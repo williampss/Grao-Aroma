@@ -1,0 +1,170 @@
+body {
+    background-color: rgba(39, 53, 62, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    background-image: url(../imagens/image-header-cardapio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 675px;
+    padding-left: 92px;;
+}
+
+#navbar > #nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    gap: 75px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: rgba(239, 233, 204, 1);
+}
+
+.logo-img img {
+    width: 539px;
+    height: 273px;
+    position: absolute;
+    top: 3px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-cardapio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(213, 170, 121, 1);
+    padding-top: 103px;
+    font-size: 96px;
+    padding-bottom: 64px;
+}
+
+#navmenu > #menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 29px;
+}
+
+#navmenu > #menu-list > .section-menu{
+    color: rgba(130, 153, 35, 1);
+    font-size: 36px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 93px;
+    padding-bottom: 220px;
+    padding-left: 30px;
+}
+
+section > h1{
+    color: rgba(213, 170, 121, 1);
+    font-size: 80px;
+}
+
+.content-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .content-menu > .list-menu > li{
+    font-size: 36px;
+    color: rgba(213, 170, 121, 1);
+}
+
+/* ------------------Footer------------------ */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(53, 47, 36, 1);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-midia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.social-midia > h2{
+    color: rgba(130, 153, 35, 1);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+
+.social-midia > .icons > i{
+    color: rgba(0, 0, 0, 1);
+    font-size: 122px;
+    cursor: pointer;
+}
+
+.agradecimento{
+    width: 475px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 162px;
+    margin-right: 114px;
+}
+
+.agradecimento > h1{
+    color: rgba(130, 153, 35, 1);
+}
+
+.agradecimento > p{
+    color: rgba(239, 233, 204, 1);
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer-logo{
+    display: flex;
+    padding-right: 930px;
+}
+
+
+
+

@@ -66,10 +66,11 @@ main{
     align-items: center;
     flex-direction: column;
     gap: 114px;
+    padding-bottom: 103px;
 }
 
 .title-home{
-    color: rgba(239, 233, 204, 1);
+    color: rgba(213, 170, 121, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,3 +100,85 @@ main{
     font-size: 48px;
     text-align: center;
 }
+
+#anchor-cardapio{
+    width: 282px;
+    height: 82px;
+    background-color: rgba(73, 52, 38, 1);
+    color: rgba(213, 170, 121, 1);
+    border: solid 3px rgba(213, 170, 121, 1);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 29px;
+}
+
+/* ------------------Footer------------------ */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(53, 47, 36, 1);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-midia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.social-midia > h2{
+    color: rgba(130, 153, 35, 1);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+}
+
+.social-midia > .icons > i{
+    color: rgba(0, 0, 0, 1);
+    font-size: 122px;
+    cursor: pointer;
+}
+
+.agradecimento{
+    width: 475px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 162px;
+    margin-right: 114px;
+}
+
+.agradecimento > h1{
+    color: rgba(130, 153, 35, 1);
+}
+
+.agradecimento > p{
+    color: rgba(239, 233, 204, 1);
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer-logo{
+    display: flex;
+    padding-right: 930px;
+}
+
+
+
+
